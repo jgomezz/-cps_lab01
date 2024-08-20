@@ -2,12 +2,12 @@ package pe.edu.tecsup.lab01;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+class MavenTest {
 
     @org.junit.jupiter.api.Test
     void reverseString() {
 
-        Main app = new Main();
+        Maven app = new Maven();
         final String EXPECTED = "!aloH";
         String actual = app.reverseString("Hola!");
         //validate
